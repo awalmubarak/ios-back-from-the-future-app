@@ -100,7 +100,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--Second-->
+        <!--Time Travel-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="back_to_the_future" customModuleProvider="target" sceneMemberID="viewController">
@@ -108,30 +108,83 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="87" y="312" width="201.5" height="43"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGC-Ne-U5x">
+                                <rect key="frame" x="85.5" y="311.5" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.81866636270000004" green="0.81866636270000004" blue="0.81866636270000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="9f1-ZO-ObA"/>
+                                    <constraint firstAttribute="height" constant="44" id="fNF-uF-9aW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="0.0073901121489999997" green="0.84601683940000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="80" y="363" width="215" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2S-Li-pCg">
+                                <rect key="frame" x="137.5" y="311.5" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.81866636270000004" green="0.81866636270000004" blue="0.81866636270000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="DOb-DP-nh0"/>
+                                    <constraint firstAttribute="height" constant="44" id="l2c-OM-e7B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="0.0073901121489999997" green="0.84601683940000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-Zc-H4F">
+                                <rect key="frame" x="189.5" y="311.5" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.81866636270000004" green="0.81866636270000004" blue="0.81866636270000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="EaD-TE-Tew"/>
+                                    <constraint firstAttribute="height" constant="44" id="uTn-vV-3lq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="0.0073901121489999997" green="0.84601683940000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHd-sm-QHr">
+                                <rect key="frame" x="241.5" y="311.5" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.81866636270000004" green="0.81866636270000004" blue="0.81866636270000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="OAf-tO-znv"/>
+                                    <constraint firstAttribute="width" constant="44" id="qZs-FB-Z2O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="0.0073901121489999997" green="0.84601683940000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kv7-Pj-A73">
+                                <rect key="frame" x="137" y="395.5" width="101" height="40"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                                <state key="normal" title="GO DOC!">
+                                    <color key="titleColor" red="1" green="0.060358078400000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goDocClicked:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="v88-xu-eyC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="NHd-sm-QHr" firstAttribute="top" secondItem="PGC-Ne-U5x" secondAttribute="top" id="0de-ep-hUm"/>
+                            <constraint firstItem="M2S-Li-pCg" firstAttribute="top" secondItem="PGC-Ne-U5x" secondAttribute="top" id="CPt-Uc-29G"/>
+                            <constraint firstItem="PGC-Ne-U5x" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="HGU-tW-c3Z"/>
+                            <constraint firstItem="PGC-Ne-U5x" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" constant="-80" id="I6z-k8-GAz"/>
+                            <constraint firstItem="ttG-Zc-H4F" firstAttribute="top" secondItem="PGC-Ne-U5x" secondAttribute="top" id="YLI-WK-BqJ"/>
+                            <constraint firstItem="M2S-Li-pCg" firstAttribute="leading" secondItem="PGC-Ne-U5x" secondAttribute="trailing" constant="8" id="ZBU-FV-c9d"/>
+                            <constraint firstItem="kv7-Pj-A73" firstAttribute="top" secondItem="PGC-Ne-U5x" secondAttribute="bottom" constant="40" id="alO-Cj-zc9"/>
+                            <constraint firstItem="NHd-sm-QHr" firstAttribute="leading" secondItem="ttG-Zc-H4F" secondAttribute="trailing" constant="8" id="eOJ-3b-0ts"/>
+                            <constraint firstItem="ttG-Zc-H4F" firstAttribute="leading" secondItem="M2S-Li-pCg" secondAttribute="trailing" constant="8" id="oUC-ah-6lV"/>
+                            <constraint firstItem="kv7-Pj-A73" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="uMJ-TN-lte"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Time Travel" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="label1" destination="PGC-Ne-U5x" id="1wX-io-BA6"/>
+                        <outlet property="label2" destination="M2S-Li-pCg" id="xpv-cP-f5z"/>
+                        <outlet property="label3" destination="ttG-Zc-H4F" id="j9T-76-6gm"/>
+                        <outlet property="label4" destination="NHd-sm-QHr" id="zWV-Wc-LTK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
